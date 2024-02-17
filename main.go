@@ -10,7 +10,7 @@ func main() {
 	app := fiber.New()
 	app.Use(cors.New(
 		cors.Config{
-			AllowOrigins:     "https://qr-generatr.vercel.app/",
+			AllowOrigins:     "https://qr-generatr.vercel.app",
 			AllowCredentials: true,
 		}))
 
